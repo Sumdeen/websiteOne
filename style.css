@@ -1,0 +1,151 @@
+h5{ 
+  
+}
+
+.hero{
+  height: 10rem;
+  background: linear-gradient(to right, #14A76C, #ffe400);
+padding: 20px;
+}
+html{
+  font-family:  sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%
+  -webkit-tap-highlight-color: rgba(0, 0, 0,  )
+}
+
+/* .fs-5{ */
+  /* font-size: 0.7rem !important; */
+/* } */
+
+
+
+ .search{ 
+   height: 40px; 
+   width: 80%; 
+   border-radius: 60px; 
+   outline: none; 
+   margin-right: -35px; 
+   border: 2px solid rgb(26, 248, 144); 
+ } 
+ .btn0{ 
+   height: 40px; 
+   width: 60%; 
+   outline: none; 
+   border: none; 
+  background-color: rgb(26, 248, 144);
+  /* color: green; */
+  font-weight: 700;
+ } 
+
+.nav-link{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: greenyellow;
+  font-family: `Rubik`, sans-serif;
+  text-transform: uppercase;
+}
+
+
+
+/* .main{ */
+  
+  /* background-size: cover; */
+  /* height: 100vh; */
+  /* background-position: 50% 50%; */
+  /* width: 100% */
+
+/* } */
+
+
+/* body{ */
+/* background-image: url(https://backgroundchecksforvolunteers.com/wp-content/uploads/2019/06/Volunteer-Image-1024x272.jpg) */
+
+}
+.main h1{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.btn1{
+  height: 45px;
+  width: 35px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.sm_p{
+  font-size: 9px;
+
+}
+.sm_heading{
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+
+.carousel-item {
+  height: -50px;
+}
+
+.item img {
+    position: absolute;
+    top: 35;
+    left: 35;
+    min-height: -100px;
+}
+footer{
+  height: auto;
+}
+
+.margT{
+  margin-top: 10px;
+  
+}
+
+#carousel{
+  object-fit: cover;
+  object-position: center;
+  height: 10vh;
+  overflow: hidden;
+}
+.carousel-item{
+  object-fit: cover;
+  object-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:rgb(109, 10, 190);
+  text-align: center; 
+  text-decoration: underline
+}
+
+table{
+  font-family: Calibri; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:center; 
+  background-color:rgb(109, 10, 190); 
+  border-collapse: collapse; 
+  border: 2px solid navy
+}
+table.inner{
+  border: 0px
+}
+
+.table {
+    top: 50%;
+    left: 25%;
+    transform: translate(-25% , -25%);
+    position: absolute;
+}
