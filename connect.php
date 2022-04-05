@@ -15,6 +15,12 @@
 		$stmt = $conn->prepare("insert into registration(firstName, lastName, gender, email, password, number) values(?, ?, ?, ?, ?, ?)");
 		$stmt->bind_param("sssssi", $firstName, $lastName, $gender, $email, $password, $number);
 		$execval = $stmt->execute();
+		if ( false===$execval) {
+  
+			die('execute() failed: ' . htmlspecialchars($stmt->error));
+}
+
+		
 		echo $execval;
 		echo "Registration successfully...";
 		$stmt->close();
