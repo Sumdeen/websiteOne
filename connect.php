@@ -26,4 +26,7 @@
 		$stmt->close();
 		$conn->close();
 	}
+
+header('Location: index.html');
+exit();
 ?>
