@@ -1,4 +1,6 @@
 <?php
+	
+header('Location: index.html');
 	$firstName = $_POST['firstName'];
 	$lastName = $_POST['lastName'];
 	$gender = $_POST['gender'];
@@ -27,6 +29,6 @@
 		$conn->close();
 	}
 
-header('Location: index.html');
+
 exit();
 ?>
